@@ -46,7 +46,7 @@ h1{
     margin-left: 4px;
 }
 
-#submit-btn{
+/* #submit-btn{
     width: 20vw;
     height: 150px;
     align-items: center;
@@ -55,6 +55,19 @@ h1{
     cursor: pointer;
     color: #d96459;
     background-color: #f2ebbf;
+} */
+
+#submit-btn{
+        color: steelblue;
+        /* background-color: sandybrown; */
+        border-radius: 40px;
+        border: 4px groove ;
+        width: 150px;
+        height: 45px;
+        cursor: pointer;
+        font-size: medium;
+        margin-left: 310px;
+
 }
 
 h2{
