@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="quiz.css">
+    <title>Quizzzz</title>
+</head>
+<body>
+    <div class="nav">
+        <a href="isTriangle.html">Is Triangle?</a><a href="hypotenuse.html">Calculate Hypotenuse</a><a href="quiz.html">Quizz</a><a href="areaOfTriangle.html">Area of Triangle</a>
+
+    </div>
+    <div class="container">
+    <form class="quiz-form">
+        <h1>Triangle Quiz</h1>
+        <div class="question-container">
+            <p>1. If a triangle has angles 1350, 150, 300. Is it an obtuse triangle?</p>
+            <label><input type="radio" value="yes" name="question1">yes</label>
+            <label><input type="radio" value="no" name="question1">no</label>
+        </div><br>
+        <div class="question-container">
+            <p>2. If a triangle has angles 900, 600, 300. Is it a right angle triangle?</p>
+            <label><input type="radio" value="yes" name="question2">yes</label>
+            <label><input type="radio" value="no" name="question2">no</label>
+        </div><br>
+        <div class="question-container">
+            <p>3. If a triangle has 2 angles of 75°. What is the measure of third angle in degree?</p>
+            <label><input type="radio" value="25" name="question3">25</label>
+            <label><input type="radio" value="30" name="question3">30</label>
+            <label><input type="radio" value="15" name="question3">15</label>
+        </div><br>
+        <div class="question-container">
+            <p>4. The perimeter of an equilateral triangle is 15cm. What is the length of one side?</p>
+            <label><input type="radio" value="15" name="question4">15cm</label>
+            <label><input type="radio" value="45" name="question4">45cm</label>
+            <label><input type="radio" value="5" name="question4">5cm</label>
+
+        </div><br>
+        <div class="question-container">
+            <p>5. If a triangle has 2 sides with equal lengths and 75° angle between them. What is the type of triangle?</p>
+            <label><input type="radio" value="equilateral" name="question5">Equilateral</label>
+            <label><input type="radio" value="isoceles" name="question5">Isoceles</label>
+            <label><input type="radio" value="right" name="question5">Right Angle Triangle</label>
+        </div><br>
+    </form>
+    <button id="submit-btn">Submit Quiz</button>
+    <h2 id="output"></h2>
+</div>
+
+</footer>
+<script src="quiz.js"></script>
+</body>
+</html>
